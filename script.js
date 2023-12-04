@@ -110,7 +110,7 @@ function PrepareInput(input){
     let input_array = input.split("");
     for(let i = 0; i< input_array.length; i++){
         if(input_array[i] == "%"){
-            input_array[i] = "/100";
+            input_array[i] = "/100*";
         }
     }
     return input_array.join("");
